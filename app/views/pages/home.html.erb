@@ -1,0 +1,7 @@
+<% 10.times do |i| %>
+  <div data-controller="hello">
+    <button class="btn btn-lg btn-primary" data-hello-target="button" data-action="click->hello#updateText">
+      Click me! <%= i %>
+    </button>
+  </div>
+<% end %>
